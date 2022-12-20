@@ -75,6 +75,7 @@ nav img {
   background: #ffffff;
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 60px;
 }
 
 .post-header {
@@ -196,4 +197,20 @@ strong {
 
 .new-comment button {
   color: #b2dffc;
+}
+
+footer {
+  height: 54px;
+  background: #fff;
+  padding: 0 23px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 22pxga;
 }
