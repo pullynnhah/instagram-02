@@ -172,7 +172,12 @@
   .suggestion strong {
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 5px;
+  }
+
+  .suggestion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .suggestion button {
