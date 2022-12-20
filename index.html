@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
     <title>Instagram</title>
   </head>
   <body>
@@ -32,178 +33,252 @@
         </div>
       </nav>
     </header>
-
-    <main>
-      <div class="stories">
-        <div class="story">
-          <div>
-            <img src="./assets/large/9gag.png" alt="9gag" />
+    <div class="wrapper">
+      <main>
+        <div class="stories">
+          <div class="story">
+            <div>
+              <img src="./assets/large/9gag.png" alt="9gag" />
+            </div>
+            <p>9gag</p>
           </div>
-          <p>9gag</p>
-        </div>
-        <div class="story">
-          <div>
-            <img src="./assets/large/meowed.png" alt="meowed" />
-          </div>
-          <p>meowed</p>
-        </div>
-        <div class="story">
-          <div>
-            <img src="./assets/large/barked.png" alt="barked" />
-          </div>
-          <p>barked</p>
-        </div>
-        <div class="story">
-          <div>
-            <img
-              src="./assets/large/nathanwpylestrangeplanet.png"
-              alt="nathanwpylestrangeplanet" />
-          </div>
-          <p>nathanwpylestrangeplanet</p>
-        </div>
-        <div class="story">
-          <div>
-            <img
-              src="./assets/large/wawawiwacomicsa.png"
-              alt="wawawiwacomicsa" />
-          </div>
-          <p>wawawiwacomicsa</p>
-        </div>
-        <div class="story">
-          <div>
-            <img src="./assets/large/respondeai.png" alt="respondeai" />
-          </div>
-          <p>respondeai</p>
-        </div>
-        <div class="story">
-          <div>
-            <img src="./assets/large/filomoderna.png" alt="filomoderna" />
-          </div>
-          <p>filomoderna</p>
-        </div>
-        <div class="story">
-          <div>
-            <img src="./assets/large/memeriagourmet.png" alt="memeriagourmet" />
-          </div>
-          <p>memeriagourmet</p>
-        </div>
-        <ion-icon name="chevron-forward-circle"></ion-icon>
-      </div>
-
-      <div class="feed">
-        <article class="post">
-          <div class="post-header">
-            <img src="./assets/small/meowed.png" alt="meowed" />
+          <div class="story">
+            <div>
+              <img src="./assets/large/meowed.png" alt="meowed" />
+            </div>
             <p>meowed</p>
-            <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
-          <img src="./assets/posts/cat.png" alt="cat" />
-          <div class="post-footer">
-            <div class="reactions">
-              <ion-icon name="heart-outline"></ion-icon>
-              <ion-icon name="chatbubble-outline"></ion-icon>
-              <ion-icon name="paper-plane-outline"></ion-icon>
-              <ion-icon name="bookmark-outline"></ion-icon>
+          <div class="story">
+            <div>
+              <img src="./assets/large/barked.png" alt="barked" />
             </div>
-            <div class="likes">
-              <img src="./assets/micro/respondeai.png" alt="respondeai" />
-              <p>
-                Curtido por <strong>respondeai</strong> e
-                <strong>outras 101.523 pessoas</strong>
-              </p>
-            </div>
-            <div class="comments">
-              <button>Ver todos os 3.289 comentários</button>
-              <div class="old-comment">
-                <p>📱do gato melhor que o meu!</p>
-                <ion-icon name="heart-outline"></ion-icon>
-              </div>
-              <div class="new-comment">
-                <ion-icon name="happy-outline"></ion-icon>
-                <input type="text" placeholder="Adicione um comentário" />
-                <button>Publicar</button>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="post">
-          <div class="post-header">
-            <img src="./assets/small/barked.png" alt="barked" />
             <p>barked</p>
-            <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
-          <img src="./assets/posts/dog.png" alt="dog" />
-          <div class="post-footer">
-            <div class="reactions">
-              <ion-icon name="heart-outline"></ion-icon>
-              <ion-icon name="chatbubble-outline"></ion-icon>
-              <ion-icon name="paper-plane-outline"></ion-icon>
-              <ion-icon name="bookmark-outline"></ion-icon>
-            </div>
-            <div class="likes">
+          <div class="story">
+            <div>
               <img
-                src="./assets/micro/adorableanimals.png"
-                alt="adorable_animals" />
-              <p>
-                Curtido por <strong>adorable_animals</strong> e
-                <strong>outras 99.159 pessoas</strong>
-              </p>
+                src="./assets/large/nathanwpylestrangeplanet.png"
+                alt="nathanwpylestrangeplanet" />
             </div>
-            <div class="comments">
-              <button>Ver todos os 3.289 comentários</button>
-              <div class="old-comment">
-                <p>Owww. Queria ser fofa assim dormindo💤</p>
-                <ion-icon name="heart-outline"></ion-icon>
-              </div>
-              <div class="new-comment">
-                <ion-icon name="happy-outline"></ion-icon>
-                <input type="text" placeholder="Adicione um comentário" />
-                <button>Publicar</button>
-              </div>
-            </div>
+            <p>nathanwpylestrangeplanet</p>
           </div>
-        </article>
-        <article class="post">
-          <div class="post-header">
-            <img src="./assets/small/meowed.png" alt="meowed" />
-            <p>meowed</p>
-            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          <div class="story">
+            <div>
+              <img
+                src="./assets/large/wawawiwacomicsa.png"
+                alt="wawawiwacomicsa" />
+            </div>
+            <p>wawawiwacomicsa</p>
           </div>
-          <video controls autoplay muted>
-            <source src="./assets/posts/video.mp4" type="video/mp4" />
-            <source src="./assets/posts/video.ogg" type="video/ogg" />
-          </video>
-          <div class="post-footer">
-            <div class="reactions">
-              <ion-icon name="heart-outline"></ion-icon>
-              <ion-icon name="chatbubble-outline"></ion-icon>
-              <ion-icon name="paper-plane-outline"></ion-icon>
-              <ion-icon name="bookmark-outline"></ion-icon>
+          <div class="story">
+            <div>
+              <img src="./assets/large/respondeai.png" alt="respondeai" />
             </div>
-            <div class="likes">
-              <img src="./assets/micro/respondeai.png" alt="respondeai" />
-              <p>
-                Curtido por <strong>respondeai</strong> e
-                <strong>outras 123.456 pessoas</strong>
-              </p>
-            </div>
-            <div class="comments">
-              <button>Ver todos os 3.289 comentários</button>
-              <div class="old-comment">
-                <p>Muitooo fofo 😻!</p>
-                <ion-icon name="heart-outline"></ion-icon>
-              </div>
-              <div class="new-comment">
-                <ion-icon name="happy-outline"></ion-icon>
-                <input type="text" placeholder="Adicione um comentário" />
-                <button>Publicar</button>
-              </div>
-            </div>
+            <p>respondeai</p>
           </div>
-        </article>
-      </div>
-    </main>
+          <div class="story">
+            <div>
+              <img src="./assets/large/filomoderna.png" alt="filomoderna" />
+            </div>
+            <p>filomoderna</p>
+          </div>
+          <div class="story">
+            <div>
+              <img
+                src="./assets/large/memeriagourmet.png"
+                alt="memeriagourmet" />
+            </div>
+            <p>memeriagourmet</p>
+          </div>
+          <ion-icon name="chevron-forward-circle"></ion-icon>
+        </div>
 
+        <div class="feed">
+          <article class="post">
+            <div class="post-header">
+              <img src="./assets/small/meowed.png" alt="meowed" />
+              <p>meowed</p>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <img src="./assets/posts/cat.png" alt="cat" />
+            <div class="post-footer">
+              <div class="reactions">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                <ion-icon name="bookmark-outline"></ion-icon>
+              </div>
+              <div class="likes">
+                <img src="./assets/micro/respondeai.png" alt="respondeai" />
+                <p>
+                  Curtido por <strong>respondeai</strong> e
+                  <strong>outras 101.523 pessoas</strong>
+                </p>
+              </div>
+              <div class="comments">
+                <button>Ver todos os 3.289 comentários</button>
+                <div class="old-comment">
+                  <p>📱do gato melhor que o meu!</p>
+                  <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <div class="new-comment">
+                  <ion-icon name="happy-outline"></ion-icon>
+                  <input type="text" placeholder="Adicione um comentário" />
+                  <button>Publicar</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-header">
+              <img src="./assets/small/barked.png" alt="barked" />
+              <p>barked</p>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <img src="./assets/posts/dog.png" alt="dog" />
+            <div class="post-footer">
+              <div class="reactions">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                <ion-icon name="bookmark-outline"></ion-icon>
+              </div>
+              <div class="likes">
+                <img
+                  src="./assets/micro/adorableanimals.png"
+                  alt="adorable_animals" />
+                <p>
+                  Curtido por <strong>adorable_animals</strong> e
+                  <strong>outras 99.159 pessoas</strong>
+                </p>
+              </div>
+              <div class="comments">
+                <button>Ver todos os 3.289 comentários</button>
+                <div class="old-comment">
+                  <p>Owww. Queria ser fofa assim dormindo💤</p>
+                  <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <div class="new-comment">
+                  <ion-icon name="happy-outline"></ion-icon>
+                  <input type="text" placeholder="Adicione um comentário" />
+                  <button>Publicar</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post-header">
+              <img src="./assets/small/meowed.png" alt="meowed" />
+              <p>meowed</p>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <video controls autoplay muted>
+              <source src="./assets/posts/video.mp4" type="video/mp4" />
+              <source src="./assets/posts/video.ogg" type="video/ogg" />
+            </video>
+            <div class="post-footer">
+              <div class="reactions">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                <ion-icon name="bookmark-outline"></ion-icon>
+              </div>
+              <div class="likes">
+                <img src="./assets/micro/respondeai.png" alt="respondeai" />
+                <p>
+                  Curtido por <strong>respondeai</strong> e
+                  <strong>outras 123.456 pessoas</strong>
+                </p>
+              </div>
+              <div class="comments">
+                <button>Ver todos os 3.289 comentários</button>
+                <div class="old-comment">
+                  <p>Muitooo fofo 😻!</p>
+                  <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <div class="new-comment">
+                  <ion-icon name="happy-outline"></ion-icon>
+                  <input type="text" placeholder="Adicione um comentário" />
+                  <button>Publicar</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <aside>
+        <div class="me">
+          <img src="./assets/large/catanacomics.png" alt="catanacomics" />
+          <div>
+            <strong>catanacomics</strong>
+            <p>Catana</p>
+          </div>
+        </div>
+
+        <div class="suggestions">
+          <div class="suggestion-header">
+            <strong>Sugestões para você</strong>
+            <strong>Ver tudo</strong>
+          </div>
+          <div class="suggestion">
+            <img src="./assets/small/badvibesmemes.png" alt="bad.vibes.memes" />
+
+            <div>
+              <strong>bad.vibes.memes</strong>
+              <p>Segue você</p>
+            </div>
+            <button>Seguir</button>
+          </div>
+
+          <div class="suggestion">
+            <img src="./assets/small/chibirdart.png" alt="chibirdart" />
+
+            <div>
+              <strong>chibirdart</strong>
+              <p>Segue você</p>
+            </div>
+            <button>Seguir</button>
+          </div>
+          <div class="suggestion">
+            <img
+              src="./assets/small/razoesparaacreditar.png"
+              alt="razoesparaacreditar" />
+
+            <div>
+              <strong>razoesparaacreditar</strong>
+              <p>Novo no Instagram</p>
+            </div>
+            <button>Seguir</button>
+          </div>
+          <div class="suggestion">
+            <img
+              src="./assets/small/adorableanimals.png"
+              alt="adorable_animals" />
+
+            <div>
+              <strong>adorable_animals</strong>
+              <p>Segue você</p>
+            </div>
+            <button>Seguir</button>
+          </div>
+          <div class="suggestion">
+            <img src="./assets/small/smallcutecats.png" alt="smallcutecats" />
+
+            <div>
+              <strong>smallcutecats</strong>
+              <p>Segue você</p>
+            </div>
+            <button>Seguir</button>
+          </div>
+        </div>
+        <p class="disclamer">
+          Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
+          Localizações • Contas mais relevantes • Hashtags • Idioma
+        </p>
+        <p class="copyright">© 2021 INSTAGRAM DO FACEBOOK</p>
+      </aside>
+    </div>
     <footer>
       <ion-icon name="home"></ion-icon>
       <ion-icon name="search-outline"></ion-icon>
